@@ -1,0 +1,126 @@
+{
+  "setup_size_bytes": 3072512,
+  "setup_sha256": "cbe3c2c7e6b6b634987b9d22d226fa08110390e5e7a03b43bcaaf355e805e9fd",
+  "reader_sha256": "7139a0814f54c76c0e316206d6d6b6787752c3ef983f252e94018eef53777638",
+  "payload_hashes": "PASS: all embedded payloads match originals",
+  "pe_architecture": "PASS: setup, reader and uninstaller are x64 Windows GUI",
+  "icon_resources": {
+    "MinimalPDFReader-Setup-Win11-v1.0.exe": [
+      [
+        16,
+        16
+      ],
+      [
+        20,
+        20
+      ],
+      [
+        24,
+        24
+      ],
+      [
+        32,
+        32
+      ],
+      [
+        40,
+        40
+      ],
+      [
+        48,
+        48
+      ],
+      [
+        64,
+        64
+      ],
+      [
+        128,
+        128
+      ],
+      [
+        256,
+        256
+      ]
+    ],
+    "PDFReader.exe": [
+      [
+        16,
+        16
+      ],
+      [
+        20,
+        20
+      ],
+      [
+        24,
+        24
+      ],
+      [
+        32,
+        32
+      ],
+      [
+        40,
+        40
+      ],
+      [
+        48,
+        48
+      ],
+      [
+        64,
+        64
+      ],
+      [
+        128,
+        128
+      ],
+      [
+        256,
+        256
+      ]
+    ],
+    "Uninstall.exe": [
+      [
+        16,
+        16
+      ],
+      [
+        20,
+        20
+      ],
+      [
+        24,
+        24
+      ],
+      [
+        32,
+        32
+      ],
+      [
+        40,
+        40
+      ],
+      [
+        48,
+        48
+      ],
+      [
+        64,
+        64
+      ],
+      [
+        128,
+        128
+      ],
+      [
+        256,
+        256
+      ]
+    ]
+  },
+  "dpi_manifest": "PASS: PerMonitorV2 and asInvoker are embedded",
+  "native_windows_install_and_uninstall": "NOT TESTED: build host is Linux",
+  "native_windows_pdf_and_touch_gestures": "NOT TESTED"
+}

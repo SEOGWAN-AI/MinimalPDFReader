@@ -1,0 +1,33 @@
+本資料夾是測試資料，不需要放在 PDFReader.exe 旁邊才能閱讀。
+
+mixed-pages.pdf：六頁 PDF，含直式、橫式、方形和很長的頁面。
+左右邊緣分別為紅色及藍色；預設適合寬度時兩條邊線均應可見。
+encrypted.pdf：相同內容，開啟密碼為 test123。
+broken.pdf：故意損壞的 PDF，應顯示錯誤而非當機。
+
+Windows 11 自動診斷
+在允許執行本機腳本的 PowerShell 環境，可執行：
+  .\tests\verify_windows.ps1
+腳本開啟測試文件、呼叫 Windows PDF 核心繪圖，並檢查紀錄。
+診斷不會改動使用者 PDF；測試紀錄保留在臨時資料夾。
+也可以直接在命令提示字元執行以下診斷，不需要執行腳本：
+  PDFReader.exe --diagnostic tests\mixed-pages.pdf
+結果寫入目前資料夾的 PDFReader-diagnostic.txt。
+
+人工驗證項目（尚未在 Windows 實機完成）
+1. 雙擊程式選擇 PDF，視窗應最大化且沒有工具列／選單。
+2. 開啟 mixed-pages.pdf，各頁左右邊線均可見，比例正確。
+3. 用觸控螢幕捏合和張開，手指所在文字位置應保持穩定。
+4. 用 Windows 觸控板雙指縮放／滑動，確認縮放與捲動。
+5. 按 Ctrl+0，重新適合寬度；縮放後停止手勢，確認文字清晰。
+6. 改變視窗大小或移到另一個 DPI 的螢幕，確認寬度仍填滿。
+7. 捲動到後面的頁面、縮放、再開啟不同 PDF，不應混入舊頁面。
+8. 以 Ctrl+O、拖放及含空格／中文的路徑開啟文件。
+9. 測試 encrypted.pdf，分別輸入錯誤和正確密碼。
+10. 測試 broken.pdf，應顯示錯誤。
+11. 以 F11 全螢幕，並測試 Esc 返回。
+
+跨平台版面測試
+  g++ -std=c++17 -O2 tests/layout_test.cpp -o layout_test
+  ./layout_test
+已在 Linux 通過此測試；這不代表 Windows 繪圖與硬體手勢已測試。

@@ -1,0 +1,11 @@
+# Local build output
+*.exe
+*.pdb
+*.res
+/package/
+/installer-build/
+/source/setup.rc
+
+# Python cache
+__pycache__/
+*.py[cod]

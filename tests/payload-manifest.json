@@ -1,0 +1,68 @@
+[
+  {
+    "name": "PDFReader.exe",
+    "id": 200,
+    "bytes": 912896,
+    "sha256": "7139a0814f54c76c0e316206d6d6b6787752c3ef983f252e94018eef53777638"
+  },
+  {
+    "name": "PDFReader.ico",
+    "id": 201,
+    "bytes": 50517,
+    "sha256": "aad2c67be23c8b84cc6ffe8fcdd7af674bacfefba361566398cf09923dd245fb"
+  },
+  {
+    "name": "Uninstall.exe",
+    "id": 202,
+    "bytes": 1028608,
+    "sha256": "6993f0105cc7b1d92b0becc83288192d1b64d45cb124cc93f389919d470cc0a4"
+  },
+  {
+    "name": "使用說明.txt",
+    "id": 203,
+    "bytes": 3174,
+    "sha256": "22cd2b8253c5ea224e9b71b6415bbc781595502db46fa8cb929562bb8f676d5b"
+  },
+  {
+    "name": "LICENSE.txt",
+    "id": 204,
+    "bytes": 1287,
+    "sha256": "4a27a064d58b79e2dbf16b59ec23c89848b5727c8f57b74034a171067f50d85d"
+  },
+  {
+    "name": "licenses/LLVM-libcxx-LICENSE.txt",
+    "id": 205,
+    "bytes": 16703,
+    "sha256": "539dd7aed86e8a4f12cbdd0e6c50c189c7d74847e4fecc64ce2c6ee3a01da38b"
+  },
+  {
+    "name": "licenses/LLVM-libcxxabi-LICENSE.txt",
+    "id": 206,
+    "bytes": 16706,
+    "sha256": "e2b35be49f7284a45b7baca8fc7b3ab7440e7902392b2528a457816b5bb2a15c"
+  },
+  {
+    "name": "licenses/Microsoft-windows-rs-MIT.txt",
+    "id": 207,
+    "bytes": 1142,
+    "sha256": "c075a7fdbcff0157cf50a2c2b54c7190e36e0215ec5b9145988fdd1f9efb869b"
+  },
+  {
+    "name": "licenses/MinGW-COPYING.txt",
+    "id": 208,
+    "bytes": 2326,
+    "sha256": "99a69660981156c21336fdb5661f89341b013c94e4bf9e1c7467b4745718397f"
+  },
+  {
+    "name": "licenses/Zig-LICENSE.txt",
+    "id": 209,
+    "bytes": 1080,
+    "sha256": "5c537d6853e005298a285d508cff9ac7192cea23576c840d485b2b586a7ff177"
+  },
+  {
+    "name": "install-id.txt",
+    "id": 210,
+    "bytes": 70,
+    "sha256": "6f1acb675398404798738bfcc56c9c1c9e2be9e4d3585da1fdae45ae2ebc95bd"
+  }
+]

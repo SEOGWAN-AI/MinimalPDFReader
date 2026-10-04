@@ -1,0 +1,3 @@
+7139a0814f54c76c0e316206d6d6b6787752c3ef983f252e94018eef53777638  PDFReader.exe
+cbe3c2c7e6b6b634987b9d22d226fa08110390e5e7a03b43bcaaf355e805e9fd  MinimalPDFReader-Setup-Win11-v1.0.exe
+aad2c67be23c8b84cc6ffe8fcdd7af674bacfefba361566398cf09923dd245fb  assets/PDFReader.ico
